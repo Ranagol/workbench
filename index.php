@@ -9,13 +9,9 @@ function myAutoloader($className){
 // Start the session
 session_start();
 
-$t = 10;
-$x = 20;
 
-echo $t * $x;
-
-$a = $t;
 
 
 require 'myHtml.php';
 require 'testingPlace.php';
+// require 'fizzBuzz.php';
