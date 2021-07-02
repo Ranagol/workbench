@@ -12,6 +12,7 @@ session_start();
 
 
 
+
 require 'myHtml.php';
-require 'testingPlace.php';
-// require 'fizzBuzz.php';
+require 'testTopics/testingPlace.php';
+// require 'testTopics/fizzBuzz.php';

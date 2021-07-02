@@ -25,7 +25,6 @@
     <div id="app">
         <h2 class="page-title">Workbench</h2>
 
-    
 
        
     </div>
