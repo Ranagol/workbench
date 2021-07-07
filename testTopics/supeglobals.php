@@ -1,0 +1,16 @@
+<?php
+
+if (isset($_POST['userName'])) {
+    var_dump($_POST['userName']);//Andor
+    var_dump($_POST);// array(1) { ["userName"]=> string(5) "Andor" }
+}
+
+if (!empty($_GET)) {
+    var_dump($_GET);//array(2) { ["name"]=> string(5) "Andor" ["age"]=> string(2) "40" }
+}
+
+
+
+
+
+

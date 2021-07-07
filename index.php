@@ -6,13 +6,21 @@ function myAutoloader($className){
     include 'classes/' . $className . '.php';
 }
 
-// Start the session
-session_start();
 
 
 
 
 
+
+
+
+
+
+// require 'testTopics/supeglobals.php';
 require 'myHtml.php';
 require 'testTopics/testingPlace.php';
+// require 'testTopics/drawing/drawing.php';
+// require 'testTopics/xml.php';
 // require 'testTopics/fizzBuzz.php';
+// require 'testTopics/sessionAndCookie.php';
+// require 'testTopics/fileHandling.php';
