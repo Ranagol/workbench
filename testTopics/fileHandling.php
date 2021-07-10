@@ -3,9 +3,9 @@
 //https://www.phptutorial.net/php-tutorial/php-open-file/
 
 //BASIC FILE OPENING, READING, WRITING
-$filePointer = fopen('/logs/logs.txt', 'a+');//the relative path file opening is not working!!!!!!!
+// $filePointer = fopen('/logs/logs.txt', 'a+');//the relative path file opening is not working!!!!!!!
 
-$fileNameWithPath = 'D:\_CODE\workbench\logs\logs.txt';////we must use absolut paths for fopen() files. This contains: Monday Tuesday Wednesday
+$fileNameWithPath = 'D:\_CODE\workbench\testTopics\logs\logs.txt';////we must use absolut paths for fopen() files. This contains: Monday Tuesday Wednesday
 $filePointer = fopen($fileNameWithPath, 'a+') or die ("Unable to open file!");//opening a file
 echo fread($filePointer, filesize($fileNameWithPath));//Monday Tuesday Wednesday. So fread() will get the file content into one string.
 $txt = "John Doe\n";

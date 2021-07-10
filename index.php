@@ -1,16 +1,6 @@
 <?php
 
-//in case if all classes are in the /classes folder
-spl_autoload_register('myAutoloader');
-function myAutoloader($className){
-    include 'classes/' . $className . '.php';
-}
-
-
-
-
-
-
+require __DIR__ .'/vendor/autoload.php';//the vendor dir is in the root app dir
 
 
 
@@ -19,6 +9,7 @@ function myAutoloader($className){
 // require 'testTopics/supeglobals.php';
 require 'myHtml.php';
 require 'testTopics/testingPlace.php';
+require_once 'testTopics/mysql/mysql_base.php';
 // require 'testTopics/drawing/drawing.php';
 // require 'testTopics/xml.php';
 // require 'testTopics/fizzBuzz.php';
