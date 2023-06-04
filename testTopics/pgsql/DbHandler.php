@@ -1,6 +1,6 @@
 <?php
 
-namespace testTopics\mysql;
+namespace testTopics\pgsql;
 
 use PDO;
 

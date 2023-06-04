@@ -4,6 +4,13 @@ namespace testTopics\mysql;
 
 use PDO;
 
+/**
+ * Connects to Mysql database.
+ * Open Heidi. Choose Local db server. Choose workbench db. 
+ * Here we have a pets table and a users table.
+ * 
+ * For simplicity, this class can also CRUD users and pets.
+ */
 class DbHandler
 {
     private $servername = "localhost";
@@ -16,7 +23,7 @@ class DbHandler
         try {
             $conn = $this->makeConnection();
             echo "Connected successfully";
-        } catch(PDOException $e) {
+        } catch(\PDOException $e) {
             echo "Connection failed: " . $e->getMessage();
         }
     }
@@ -42,7 +49,7 @@ class DbHandler
             // use exec() because no results are returned
             $conn->exec($sql);
             echo "New record created successfully";
-        } catch(PDOException $e) {
+        } catch(\PDOException $e) {
             echo $sql . "<br>" . $e->getMessage();
         }
         $conn = null;
@@ -57,7 +64,7 @@ class DbHandler
             // use exec() because no results are returned
             $conn->exec($sql);
             echo "New record created successfully";
-        } catch(PDOException $e) {
+        } catch(\PDOException $e) {
             echo $sql . "<br>" . $e->getMessage();
         }
         $conn = null;
@@ -71,7 +78,7 @@ class DbHandler
             $stmt->execute();
 
             return $stmt->fetchAll(PDO::FETCH_CLASS);
-        } catch (PDOException $e) {
+        } catch (\PDOException $e) {
             echo "Error: " . $e->getMessage();
         }
     }
@@ -84,7 +91,7 @@ class DbHandler
             $stmt->execute();
 
             return $stmt->fetchAll(PDO::FETCH_CLASS);
-        } catch (PDOException $e) {
+        } catch (\PDOException $e) {
             echo "Error: " . $e->getMessage();
         }
     }
