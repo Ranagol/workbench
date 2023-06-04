@@ -12,7 +12,6 @@ require 'testTopics/header-testing.php';
 require 'myHtml.php';
 require 'testTopics/testingPlace.php';
 // require_once 'testTopics/pgsql/pgsql_base.php';//for postgres
-
 // require 'testTopics/supeglobals.php';
 // require_once 'testTopics/mysql/mysql_base.php';//for mysql
 // require 'testTopics/drawing/drawing.php';
