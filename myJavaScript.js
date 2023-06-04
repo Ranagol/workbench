@@ -1,15 +1,15 @@
 console.log('JavaScript was activated');
 
-new Vue({
-    el: '#app',
+// new Vue({
+//     el: '#app',
 
-    data: {
-      text: 'random text',
-    },
+//     data: {
+//       text: 'random text',
+//     },
 
-    methods: {
-      returnHello(){
-	    console.log('hello from vue');
-	},
-    }
-  });
+//     methods: {
+//       returnHello(){
+// 	    console.log('hello from vue');
+// 	},
+//     }
+//   });

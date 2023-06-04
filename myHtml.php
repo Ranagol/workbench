@@ -24,12 +24,16 @@
 <body>
     <div id="app">
         <h2 class="page-title">Workbench</h2>
-        <!-- <?//php require 'testTopics/form.html'; ?> -->
 
-       
+        <p>Awesome, the page works!</p>
+        
+        <!-- <?//php require 'testTopics/form.html'; ?> -->
     </div>
     
+    <!-- Vue is connected into this app -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!-- My JS script is connected in this app. -->
     <script src="myJavaScript.js"></script>
 </body>
 </html>

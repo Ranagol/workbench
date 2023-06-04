@@ -8,8 +8,8 @@ class DbHandler
 {
     private $servername = "localhost";
     private $dbName = 'workbench';
-    private $username = "root";
-    private $password = "";
+    private $username = "postgres";
+    private $password = "password";
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class DbHandler
     public function makeConnection()
     {
         $conn = new PDO(
-            "mysql:host=" . $this->getServername() . '; dbname=' . $this->getDbName(),
+            "pgsql:host=" . $this->getServername() . '; dbname=' . $this->getDbName(),
             $this->getUsername(),
             $this->getPassword()
         );
