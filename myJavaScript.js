@@ -1,4 +1,4 @@
-console.log('JavaScript was activated');
+console.log('JavaScript was activated by Andor!');
 
 // new Vue({
 //     el: '#app',

@@ -8,9 +8,8 @@ require __DIR__ .'/vendor/autoload.php';
 /**
  * With these require lines I can turn on and off some experimental features of the app.
  */
-
-
 require 'testTopics/header-testing.php';
+$x = 8;
 
 /**
  * Sending POST and GET requests
