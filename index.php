@@ -34,7 +34,7 @@ require 'testTopics/testingPlace.php';
 /**
  * Testing Mysql CRUD.
  */
-// require_once 'testTopics/mysql/mysql_base.php';
+require_once 'testTopics/mysql/mysql_base.php';
 
 /**
  * Working with php created images.
