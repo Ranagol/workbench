@@ -5,11 +5,14 @@
  */
 require __DIR__ .'/vendor/autoload.php';
 
+require 'exceptions.php';
+
+die( 'Yup, this died here. Remove this line to run the code below.');
+
 /**
  * With these require lines I can turn on and off some experimental features of the app.
  */
 require 'testTopics/header-testing.php';
-$x = 8;
 
 /**
  * Sending POST and GET requests
@@ -61,3 +64,6 @@ require_once 'testTopics/mysql/mysql_base.php';
  * BASIC FILE OPENING, READING, WRITING
  */
 // require 'testTopics/fileHandling.php';
+
+
+
