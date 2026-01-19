@@ -13,7 +13,11 @@ if (isset($_POST['userName'])) {
  */
 if (!empty($_GET)) {
     var_dump($_GET);//array(2) { ["name"]=> string(5) "Andor" ["age"]=> string(2) "40" }
+    echo '<br>Name: ' . $_GET['name'];//Name: Andor
+    echo '<br>Age: ' . $_GET['age'];//Age: 40   
 }
+
+
 
 
 

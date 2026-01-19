@@ -1,10 +1,19 @@
 <!-- This form can send both GET and POST data to the server.-->
 
 <!-- With this form we send dynamic POST data, whatever is typed into the form -->
-<form action="/testTopics/supeglobals.php" method="POST">
-    <input type="text" name="userName">
+<form 
+    action="/testTopics/supeglobals.php" 
+    method="POST"
+>
+    <label for="userName">This form is for testing the POST method</label>
+    <br>
+    <input type="text" name="userName" value="Andor">
     <button type="submit">Submit</button>
 </form>
 
 <!-- With this link we send a hardcoded GET data to the server -->
-<a href="/testTopics/supeglobals.php?name=Andor&age=40">GET testing link</a>
+<br>
+<a 
+    href="/testTopics/supeglobals.php?name=Andor&age=40"
+    >This link for sending a hardcoded GET request
+</a>

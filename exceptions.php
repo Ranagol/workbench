@@ -1,3 +1,4 @@
 <?php
 
-echo 'exceptions.php loaded' . '<br>';
+//This place is used to test some exceptions in PHP
+

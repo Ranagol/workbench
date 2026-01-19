@@ -7,7 +7,6 @@ require __DIR__ .'/vendor/autoload.php';
 
 require 'exceptions.php';
 
-die( 'Yup, this died here. Remove this line to run the code below.');
 
 /**
  * With these require lines I can turn on and off some experimental features of the app.
@@ -37,7 +36,7 @@ require 'testTopics/testingPlace.php';
 /**
  * Testing Mysql CRUD.
  */
-require_once 'testTopics/mysql/mysql_base.php';
+// require_once 'testTopics/mysql/mysql_base.php';
 
 /**
  * Working with php created images.
